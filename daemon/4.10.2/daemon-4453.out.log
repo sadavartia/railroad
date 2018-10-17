@@ -1,0 +1,199 @@
+01:29:09.891 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:+HeapDumpOnOutOfMemoryError, -Xmx1024m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
+01:29:10.041 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=3a63e841-8d69-4513-9eb0-b3a4cab34457,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home,daemonRegistryDir=/Users/psadavartia/Documents/code/railroad/daemon,pid=4453,idleTimeout=60000,daemonOpts=-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+01:29:10.070 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun0
+01:29:10.071 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:29:10.071 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:29:10.071 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:3336:c3a5:7c8:5edd%utun0
+01:29:10.072 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface utun0
+01:29:10.074 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface awdl0
+01:29:10.074 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:29:10.074 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:29:10.074 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:8863:fdff:fe4a:d39%awdl0
+01:29:10.075 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface awdl0
+01:29:10.075 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface vnic1
+01:29:10.075 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:29:10.075 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:29:10.076 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /10.37.129.2
+01:29:10.076 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface vnic1
+01:29:10.076 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface vnic0
+01:29:10.077 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:29:10.077 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:29:10.077 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /10.211.55.2
+01:29:10.077 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface vnic0
+01:29:10.077 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface en0
+01:29:10.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:29:10.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:29:10.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:a2:9713:6cee:d752%en0
+01:29:10.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.101
+01:29:10.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface en0
+01:29:10.079 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo0
+01:29:10.079 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+01:29:10.079 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:29:10.079 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+01:29:10.080 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+01:29:10.080 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+01:29:10.080 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface lo0
+01:29:10.084 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]].
+01:29:10.088 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Wed Oct 17 01:29:10 PDT 2018, with address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:29:10.088 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:29:10.088 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=3a63e841-8d69-4513-9eb0-b3a4cab34457,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home,daemonRegistryDir=/Users/psadavartia/Documents/code/railroad/daemon,pid=4453,idleTimeout=60000,daemonOpts=-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+01:29:10.089 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], context: DefaultDaemonContext[uid=3a63e841-8d69-4513-9eb0-b3a4cab34457,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home,daemonRegistryDir=/Users/psadavartia/Documents/code/railroad/daemon,pid=4453,idleTimeout=60000,daemonOpts=-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+01:29:10.098 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:29:10.101 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:10.105 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:10.105 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+01:29:10.106 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+01:29:10.109 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:56442 to /127.0.0.1:56441.
+01:29:10.111 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+01:29:10.112 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+01:29:10.112 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+01:29:10.172 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: received class org.gradle.launcher.daemon.protocol.Build
+01:29:10.172 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 16: Received non-IO message from client: Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}
+01:29:10.172 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}.
+01:29:10.172 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad} with connection: socket connection from /127.0.0.1:56441 to /127.0.0.1:56442.
+01:29:10.174 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:56441 to /127.0.0.1:56442] after 0.0 minutes of idle
+01:29:10.174 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:29:10.174 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:29:10.175 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:29:10.175 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:10.176 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:10.176 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+01:29:10.177 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+01:29:10.177 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}. Dispatching build started information...
+01:29:10.177 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 18: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+01:29:10.180 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: received class org.gradle.launcher.daemon.protocol.CloseInput
+01:29:10.180 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.EnMfNFYbFM/Listeners, XPC_FLAGS=0x0, SHELL=/bin/bash, __CF_USER_TEXT_ENCODING=0x4A872414:0x0:0x0, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.oDNNyngnvg/Render, LOGNAME=psadavartia, USER=psadavartia, XPC_SERVICE_NAME=com.jetbrains.intellij.18600, HOME=/Users/psadavartia, TMPDIR=/var/folders/9_/3k852bfd2tg8l567k7jsjc3158f90m/T/}
+01:29:10.181 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 16: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@5d5549f5
+01:29:10.188 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+01:29:10.188 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 4453). The daemon log file: /Users/psadavartia/Documents/code/railroad/daemon/4.10.2/daemon-4453.out.log
+01:29:10.189 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 954.7 MB]
+01:29:10.190 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+01:29:10.190 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+01:29:10.193 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+01:29:10.193 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=3a63e841-8d69-4513-9eb0-b3a4cab34457,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home,daemonRegistryDir=/Users/psadavartia/Documents/code/railroad/daemon,pid=4453,idleTimeout=60000,daemonOpts=-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+CONFIGURE SUCCESSFUL in 3s
+01:29:13.991 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+01:29:14.001 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+01:29:14.001 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:56441 to /127.0.0.1:56442]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@10b24e65 with state Busy
+01:29:14.001 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:56441 to /127.0.0.1:56442]
+01:29:14.001 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+01:29:14.001 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:29:14.002 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:29:14.002 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:29:14.003 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:14.003 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:14.004 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+01:29:14.004 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@6084edbb]
+01:29:14.004 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: dispatching class org.gradle.launcher.daemon.protocol.Success
+01:29:14.010 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=7c28a34d-a0ac-4c30-a7c1-fd864a922c2e, currentDir=/Users/psadavartia/Documents/code/railroad}
+01:29:14.013 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: received class org.gradle.launcher.daemon.protocol.Finished
+01:29:14.013 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 16: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@53f1a54e
+01:29:14.013 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@53f1a54e
+01:29:14.014 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: stopping connection
+01:29:14.014 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+01:29:14.015 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: received null
+01:29:14.015 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 16: Received end-of-input from client.
+01:29:14.019 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: stopping connection
+01:29:20.113 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:29:20.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:20.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:20.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:20.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:20.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:20.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:30.116 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:29:30.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:30.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:30.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:30.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:30.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:30.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:30.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:30.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:30.119 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:40.113 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:29:40.113 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:40.113 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:40.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:40.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:40.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:40.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:40.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:40.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:40.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:50.115 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:29:50.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:50.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:50.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:50.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:50.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:50.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:29:50.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:29:50.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:29:50.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:00.115 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:30:00.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:00.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:00.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:00.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:00.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:00.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:00.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:00.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:00.119 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:10.111 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:30:10.111 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:10.111 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:10.111 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:10.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:10.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:10.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:10.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:10.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:10.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:20.114 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:30:20.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:20.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:20.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:20.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:20.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:20.115 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:20.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:30:20.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:20.116 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:20.117 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build after being idle for 1 minutes
+01:30:20.117 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to after being idle for 1 minutes. The daemon is running a build: false
+01:30:20.117 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+01:30:20.117 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+01:30:20.117 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+01:30:20.118 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:30:20.118 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:30:20.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:30:20.119 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:20.119 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:30:20.119 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+01:30:20.121 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Artifact transforms cache (/Users/psadavartia/Documents/code/railroad/caches/transforms-1)
+01:30:20.121 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Artifact transforms cache (/Users/psadavartia/Documents/code/railroad/caches/transforms-1).
+01:30:20.122 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (/Users/psadavartia/Documents/code/railroad/caches/transforms-1) has last been fully cleaned up 3 hours ago
+01:30:20.122 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jars (/Users/psadavartia/Documents/code/railroad/caches/jars-3)
+01:30:20.122 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (/Users/psadavartia/Documents/code/railroad/caches/jars-3).
+01:30:20.122 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (/Users/psadavartia/Documents/code/railroad/caches/jars-3) has last been fully cleaned up 3 hours ago
+01:30:20.122 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (/Users/psadavartia/Documents/code/railroad/caches/4.10.2/fileHashes)
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/Users/psadavartia/Documents/code/railroad/caches/4.10.2/fileHashes/fileHashes.bin)
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (/Users/psadavartia/Documents/code/railroad/caches/4.10.2/fileHashes).
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (/Users/psadavartia/Documents/code/railroad/caches/4.10.2/generated-gradle-jars) was closed 0 times.
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/Users/psadavartia/Documents/code/railroad/caches/modules-2)
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/Users/psadavartia/Documents/code/railroad/caches/modules-2/metadata-2.63/module-artifacts.bin)
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/Users/psadavartia/Documents/code/railroad/caches/modules-2/metadata-2.63/module-metadata.bin)
+01:30:20.123 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (/Users/psadavartia/Documents/code/railroad/caches/modules-2/metadata-2.63/module-artifact.bin)
+01:30:20.124 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/Users/psadavartia/Documents/code/railroad/caches/modules-2).
+01:30:20.124 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (/Users/psadavartia/Documents/code/railroad/caches/modules-2) has last been fully cleaned up 3 hours ago
+01:30:20.124 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (/Users/psadavartia/Documents/code/railroad/caches/journal-1)
+01:30:20.124 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (/Users/psadavartia/Documents/code/railroad/caches/journal-1/file-access.bin)
+01:30:20.124 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (/Users/psadavartia/Documents/code/railroad/caches/journal-1).
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+01:30:20.126 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [f315087b-dea1-400e-ba7c-3a0545b98c06 port:56441, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]]
+01:30:20.126 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:30:20.127 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+01:30:20.127 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

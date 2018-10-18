@@ -5,7 +5,7 @@ import java.io.PrintStream;
 import com.kiwiland.Commuter;
 import com.kiwiland.exception.NoSuchRouteException;
 
-class ShortestDistanceExecutor extends AbstractExecutor {
+public class ShortestDistanceExecutor extends AbstractExecutor {
     private final PrintStream outputStream;
 
     public ShortestDistanceExecutor(final String commandLine, final PrintStream stream) {

@@ -4,7 +4,7 @@ import java.io.PrintStream;
 
 import com.kiwiland.Commuter;
 
-class TripsExecutor extends AbstractExecutor {
+public class TripsExecutor extends AbstractExecutor {
     private final PrintStream outputStream;
 
     public TripsExecutor(final String commandLine, final PrintStream stream) {

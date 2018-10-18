@@ -9,7 +9,7 @@ import com.kiwiland.exception.NoSuchRouteException;
 
 public abstract class RouteExecutor extends AbstractExecutor {
 
-    protected static final String NO_ROUTE_MSG = "NO SUCH ROUTE";
+    public static final String NO_ROUTE_MSG = "NO SUCH ROUTE";
     protected final PrintStream outputStream;
 
     public RouteExecutor(String commandLine, PrintStream outputStream) {

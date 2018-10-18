@@ -1,6 +1,8 @@
 package com.kiwiland;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.List;
 
 import com.kiwiland.executor.CommandBuilder;
@@ -13,13 +15,15 @@ public class RailRoadService {
     public static void main(final String[] args) throws Exception {
         final Commuter commuter = new CommuterImpl(GraphBuilder.getEmptyGraph());
         File inputFile = null;
+        InputStream inputStream;
         if (args.length == 1) {
             inputFile = new File(args[0]);
+            inputStream = new FileInputStream(inputFile);
         } else {
-            inputFile = new File(RailRoadService.class.getResource("/input.txt").toURI());
+            inputStream = RailRoadService.class.getResourceAsStream("/input.txt");
         }
 
-        final List<Executor> inputs = new CommandBuilder(System.out).getCommandsFromFile(inputFile);
+        final List<Executor> inputs = new CommandBuilder(System.out).getCommandsFromFile(inputStream);
         int i = 1;
 
         for (final Executor eachExecutor : inputs) {

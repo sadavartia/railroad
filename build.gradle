@@ -3,6 +3,14 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.kiwiland.RailRoadService'
+        )
+    }
+}
+
 sourceCompatibility = 1.8
 
 repositories {
@@ -10,5 +18,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-junit', version: '2.0.0.0'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.1.0'
 }

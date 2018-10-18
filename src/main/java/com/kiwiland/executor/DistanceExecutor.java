@@ -6,7 +6,7 @@ import java.util.List;
 import com.kiwiland.Commuter;
 import com.kiwiland.exception.NoSuchRouteException;
 
-class DistanceExecutor extends RouteExecutor {
+public class DistanceExecutor extends RouteExecutor {
     public DistanceExecutor(final String commandLine, final PrintStream stream) {
         super(commandLine, stream);
     }

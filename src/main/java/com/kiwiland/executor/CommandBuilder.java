@@ -1,9 +1,9 @@
 package com.kiwiland.executor;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,9 +21,9 @@ public class CommandBuilder {
         this.outputStream = outputStream;
     }
 
-    public List<Executor> getCommandsFromFile(final File inputFile) throws IOException {
+    public List<Executor> getCommandsFromFile(final InputStream inputStream) throws IOException {
         final List<Executor> executors = new ArrayList<Executor>();
-        final BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+        final BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         while (reader.ready()) {
             final Executor toAdd = processLine(reader);
             if (toAdd != null) {

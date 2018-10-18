@@ -37,17 +37,17 @@ Run main class in `RailRoadService.java`
 
 Test Input
 ----------
-Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
-Distance: A-B-C
-Distance: A-D
-Distance: A-D-C
-Distance: A-E-B-C-D
-Distance: A-E-D
-Trips: MAX_STOPS,3,C-C
-Trips: EXACT_STOPS,4,A-C
-Shortest: A-C
-Shortest: B-B
-Trips: MAX_DISTANCE,30,C-C
+Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7 <br/>
+Distance: A-B-C <br/>
+Distance: A-D <br/>
+Distance: A-D-C <br/>
+Distance: A-E-B-C-D <br/>
+Distance: A-E-D <br/>
+Trips: MAX_STOPS,3,C-C <br/>
+Trips: EXACT_STOPS,4,A-C <br/>
+Shortest: A-C <br/>
+Shortest: B-B <br/>
+Trips: MAX_DISTANCE,30,C-C <br/>
 
 Expected Output
 ---------------
